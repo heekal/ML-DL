@@ -61,7 +61,7 @@ scikit-learn-cookbook/
 Clone the repository:
 
 ```Bash
-git clone [https://github.com/YOUR_USERNAME/scikit-learn-cookbook.git](https://github.com/YOUR_USERNAME/scikit-learn-cookbook.git)
+git clone [https://github.com/YOUR_USERNAME/scikit-learn-cookbook.git](https://github.com/heekal/scikit-learn-cookbook.git)
 cd scikit-learn-cookbook
 ```
 
@@ -79,7 +79,6 @@ Install dependencies:
 
 ```Bas
 pip install -r requirements.txt
-(Ensure your requirements.txt includes scikit-learn>=1.5, numpy, pandas, matplotlib, seaborn, and jupyter)
 ```
 
 Launch Jupyter Notebook:
