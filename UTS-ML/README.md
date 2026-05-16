@@ -17,10 +17,10 @@
 
 ## 📁 Struktur Repository
 UTS-ML/
-├── UTS_ML_Clustering.ipynb          # Segmentasi pelanggan dengan clustering
-├── UTS_ML_REGRESI.ipynb             # Prediksi tahun rilis lagu dengan regresi
-├── UTS_ML_TransactionDataset.ipynb  # Deteksi fraud dengan klasifikasi
-└── README.md
+├── UTS_ML_Clustering.ipynb          # Segmentasi pelanggan dengan clustering </br>
+├── UTS_ML_REGRESI.ipynb             # Prediksi tahun rilis lagu dengan regresi </br>
+├── UTS_ML_TransactionDataset.ipynb  # Deteksi fraud dengan klasifikasi </br>
+└── README.md </br>
 
 ---
 
