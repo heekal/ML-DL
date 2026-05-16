@@ -38,6 +38,21 @@ We are utilizing the absolute best, industry-standard tools to dominate data:
 
 ---
 
+## 📁 File Structure
+```
+IntroductionMachineLearningwithpython/
+├── AlgorithmChainsandPipelines.ipynb
+├── Introduction.ipynb
+├── ModelEvaluationandImprovement.ipynb
+├── RepresentingDataandEngineeringFeatures.ipynb
+├── SupervisedLearning.ipynb
+├── UnsupervisedLearningandPreprocessing.ipynb
+├── WorkingwithTextData.ipynb
+└── WrappingUp.ipynb
+```
+
+---
+
 ## 🎯 Who Is This For?
 
 **EVERYONE.** If you are a current or aspiring machine learning practitioner, scientist, researcher, or commercial data scientist, this is your holy grail. *Zero* previous AI or machine learning knowledge is required to start building massive things right now!
