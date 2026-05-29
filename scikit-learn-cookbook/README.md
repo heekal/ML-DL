@@ -37,21 +37,20 @@ Each notebook inside the chapter folders contains the reproduced code, exercise 
 
 ```text
 scikit-learn-cookbook/
-├── APIConventions.ipynb
-├── DataPreprocessing.ipynb
-├── DimensionalityReduction.ipynb
-├── KNNandDistance.ipynb
-├── LinearModels.ipynb
-├── LogisticRegression.ipynb
-├── SVMandKernels.ipynb
-├── TreeandEnsemble.ipynb
-├── TextProcessing.ipynb
-├── Clustering.ipynb
-├── OutlierDetection.ipynb
-├── ModelEvaluation.ipynb
-├── Deployment.ipynb
-├── requirements.txt
-└── README.md
+├── Advanced_Logistic_Regression_and_Extensions.ipynb
+├── Building_Models_with_Distance_Metrics_and_Nearest_Neighbors.ipynb
+├── Clustering_Techniques.ipynb
+├── Common_Conventions_and_API_Elements_of_scikit_learn.ipynb
+├── Cross_Validation_and_Model_Evaluation_Techniques.ipynb
+├── Deploying_scikit_learn_Models_in_Production.ipynb
+├── Dimensionality_Reduction_Techniques.ipynb
+├── Linear_Models_and_Regularization.ipynb
+├── Novelty_and_Outlier_Detection.ipynb
+├── Pre_Model_Workflow_and_Data_Preprocessing.ipynb
+├── README.md
+├── Support_Vector_Machines_dan_Kernel_Methods.ipynb
+├── Text_Processing_and_Multiclass_Classification.ipynb
+└── Tree_Based_Algorithms_and_Ensemble_Methods.ipynb
 ```
 
 ---
@@ -73,12 +72,6 @@ python -m venv venv
 venv\Scripts\activate
 # On macOS/Linux:
 source venv/bin/activate
-```
-
-Install dependencies:
-
-```Bas
-pip install -r requirements.txt
 ```
 
 Launch Jupyter Notebook:
