@@ -1,38 +1,40 @@
-# 🚀 Practical Linear Algebra for Data Science — Python Notebook Recreation
+# 🚀 Practical Linear Algebra for Data Science — Recreated with Python
 
-This repository contains my recreated chapter-by-chapter notebooks based on **Practical Linear Algebra for Data Science** by **Mike X Cohen**, published by **O’Reilly Media**.
+Repository ini berisi notebook hasil recreate seluruh chapter dari buku **Practical Linear Algebra for Data Science** karya **Mike X Cohen**, diterbitkan oleh **O’Reilly Media**.
 
-The goal of this repository is to make the concepts of linear algebra easier to understand through direct Python implementation. Each notebook follows the book chapter structure and focuses on translating the mathematical ideas into runnable code, visualizations, and practical examples.
+Tujuan repository ini adalah membantu memahami konsep aljabar linear secara praktis menggunakan Python. Setiap notebook mengikuti struktur chapter pada buku dan berfokus pada implementasi konsep matematika ke dalam kode, visualisasi, dan contoh aplikasi yang relevan untuk data science.
 
 ---
 
-## 🌟 Why This Repository Exists
+## 🌟 Tentang Repository Ini
 
-Linear algebra is one of the core foundations of data science, machine learning, deep learning, signal processing, and scientific computing. Instead of learning it only through formulas, this repository rebuilds the concepts using Python so the theory can be tested, visualized, and understood through code.
+Aljabar linear adalah salah satu dasar penting dalam data science, machine learning, deep learning, computer vision, signal processing, dan scientific computing.
 
-This project is intended as a study companion, not a replacement for the original book.
+Daripada hanya mempelajari rumus secara abstrak, repository ini mencoba menjelaskan konsep tersebut melalui pendekatan praktis menggunakan Python. Dengan begitu, konsep seperti vektor, matriks, inverse, QR decomposition, LU decomposition, eigendecomposition, SVD, least squares, dan PCA bisa langsung diuji dan divisualisasikan.
+
+Repository ini dibuat sebagai **catatan belajar dan companion notebook**, bukan pengganti buku aslinya.
 
 ---
 
 ## 🛠️ Tech Stack
 
-The notebooks use common Python tools for numerical computing and visualization:
+Tools utama yang digunakan:
 
-- **Python** — main programming language
-- **NumPy** — vector, matrix, and numerical operations
-- **SciPy** — scientific computing utilities
-- **pandas** — data handling for applied examples
-- **matplotlib** — visualizations
-- **scikit-learn** — machine learning-related applications
-- **Jupyter Notebook** — interactive coding environment
+- **Python** — bahasa utama untuk implementasi
+- **NumPy** — operasi vektor, matriks, dan komputasi numerik
+- **SciPy** — komputasi ilmiah
+- **pandas** — pengolahan data untuk contoh aplikasi
+- **matplotlib** — visualisasi data dan konsep matematika
+- **scikit-learn** — aplikasi machine learning
+- **Jupyter Notebook** — lingkungan interaktif untuk menjalankan kode
 
 ---
 
-## 📚 Chapter Breakdown
+## 📚 Daftar Chapter dan Notebook
 
-| Chapter | Topic | Notebook |
+| Chapter | Materi | File Notebook |
 |---|---|---|
-| 1 | Introduction | `Introduction.ipynb` |
+| 1 | Introduction | `Introduction (1).ipynb` |
 | 2 | Vectors, Part 1 | `Vectors_Part_1.ipynb` |
 | 3 | Vectors, Part 2 | `Vectors_Part_2.ipynb` |
 | 4 | Vector Applications | `Vector_Applications.ipynb` |
@@ -51,7 +53,7 @@ The notebooks use common Python tools for numerical computing and visualization:
 
 ---
 
-## 📁 File Structure
+## 📁 Struktur File
 
 ```text
 PracticalLinearAlgebra/
@@ -75,74 +77,77 @@ PracticalLinearAlgebra/
 
 ---
 
-🎯 What You Will Learn
+🎯 Materi yang Dipelajari
 
-By going through these notebooks, you will practice:
+Melalui notebook ini, kamu akan mempelajari:
 
-Creating and visualizing vectors and matrices </br>
-Vector operations, dot products, norms, and decompositions </br>
-Matrix multiplication, transpose, rank, trace, determinant, and inverse </br>
-Orthogonal matrices, QR decomposition, row reduction, and LU decomposition </br>
-General linear models and least squares </br>
-Eigendecomposition and Singular Value Decomposition </br>
-PCA, low-rank approximation, denoising, and applied linear algebra examples </br>
-Implementing linear algebra concepts directly in Python </br>
-
+- Pembuatan dan visualisasi vektor
+- Operasi vektor, dot product, magnitude, dan unit vector
+- Linear independence, span, basis, dan subspace
+- Pembuatan dan manipulasi matriks
+- Matrix multiplication, transpose, trace, norm, rank, dan determinant
+- Matrix inverse dan Moore-Penrose pseudoinverse
+- Orthogonal matrix dan QR decomposition
+- Row reduction dan LU decomposition
+- General Linear Model dan least squares
+- Regularization dan polynomial regression
+- Eigendecomposition
+- Singular Value Decomposition
+- PCA, low-rank approximation, dan denoising
+- Implementasi konsep aljabar linear menggunakan Python
+  
 ---
 
-🚀 How to Use
+🚀 Cara Menggunakan
 
-Clone this repository:
+Clone repository:
 
-```
+```bash
 git clone https://github.com/heekal/ML-DL.git
 ```
 
-Open the notebook folder:
+Masuk ke folder notebook:
 
-```
+```bash
 cd ML-DL/PracticalLinearAlgebra
 ```
 
-Install the common dependencies:
+Install dependency yang dibutuhkan:
 
-```
+```bash
 pip install numpy scipy pandas matplotlib scikit-learn jupyter
 ```
 
-Run Jupyter Notebook:
+Jalankan Jupyter Notebook:
 
-```
+```bash
 jupyter notebook
 ```
 
-Then open any .ipynb file and run the cells step by step.
+Lalu buka file .ipynb yang ingin dipelajari dan jalankan cell secara berurutan.
 
 ---
 
-👤 Who Is This For?
+👤 Untuk Siapa Repository Ini?
 
-This repository is useful for:
+Repository ini cocok untuk:
 
-Students learning linear algebra </br>
-Data science beginners </br>
-Machine learning learners </br>
-Python users who want to understand the math behind algorithms </br>
-Anyone who prefers learning mathematics through implementation </br>
- </br>
-No advanced math background is required, but basic Python knowledge will help.
+Mahasiswa yang sedang belajar aljabar linear
+Pemula di bidang data science
+Pembelajar machine learning
+Pengguna Python yang ingin memahami dasar matematika di balik algoritma
+Siapa pun yang lebih mudah memahami matematika melalui kode dan visualisasi
+
+Basic Python akan sangat membantu, tetapi tidak wajib memiliki latar belakang matematika tingkat lanjut.
 
 ---
 
 ⚖️ Copyright & Acknowledgments
 
-This repository is based on my personal recreation and study of:
+Repository ini dibuat berdasarkan proses belajar dan recreate dari buku:
 
-Practical Linear Algebra for Data Science  </br>
-by Mike X Cohen  </br>
-Published by O’Reilly Media  </br>
-Copyright © 2022 Syncxpress BV.  </br>
-
-All rights to the original book, explanations, structure, and related materials belong to the original author and publisher.
-
-This repository is for educational and personal learning purposes only. It is not affiliated with, endorsed by, or intended to replace the official book.
+Practical Linear Algebra for Data Science oleh Mike X Cohen Published by O’Reilly Media Copyright © 2022 Syncxpress BV.
+</br>
+Seluruh hak cipta terhadap buku, struktur materi, penjelasan asli, dan konten terkait tetap dimiliki oleh penulis dan penerbit aslinya.
+</br>
+Repository ini hanya digunakan untuk tujuan edukasi dan pembelajaran pribadi. Repository ini tidak berafiliasi, tidak didukung, dan tidak dimaksudkan untuk menggantikan buku resmi.
