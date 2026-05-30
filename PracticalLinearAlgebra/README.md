@@ -32,7 +32,7 @@ The notebooks use common Python tools for numerical computing and visualization:
 
 | Chapter | Topic | Notebook |
 |---|---|---|
-| 1 | Introduction | `Introduction (1).ipynb` |
+| 1 | Introduction | `Introduction.ipynb` |
 | 2 | Vectors, Part 1 | `Vectors_Part_1.ipynb` |
 | 3 | Vectors, Part 2 | `Vectors_Part_2.ipynb` |
 | 4 | Vector Applications | `Vector_Applications.ipynb` |
