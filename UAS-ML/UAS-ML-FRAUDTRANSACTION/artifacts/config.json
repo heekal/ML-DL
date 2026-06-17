@@ -1,0 +1,17 @@
+{
+  "DATA_DIR": "/content",
+  "TRANSACTION_FILE": "train_transaction.csv",
+  "TARGET": "isFraud",
+  "ID_COL": "TransactionID",
+  "TIME_COL": "TransactionDT",
+  "MISSING_THRESHOLD": 0.8,
+  "MAX_NUM_FEATURES": 140,
+  "SCAN_CHUNKSIZE": 50000,
+  "N_TRIALS": 5,
+  "TUNE_TRAIN_ROWS": 80000,
+  "TUNE_VAL_ROWS": 30000,
+  "FINAL_EPOCHS": 20,
+  "BATCH_SIZE_DEFAULT": 2048,
+  "ARTIFACT_DIR": "/content/artifacts",
+  "MLFLOW_ALLOW_FILE_STORE": "True"
+}
