@@ -1,0 +1,22 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+
+# training artifacts
+models/
+checkpoints/
+wandb/
+runs/
+t5_squad_outputs/
+checkpoint-*/
+
+# large model files
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# OS
+.DS_Store
+Thumbs.db

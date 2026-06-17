@@ -1,0 +1,14 @@
+{
+  "test_exact_match": 74.0,
+  "test_f1": 85.6452,
+  "avg_generated_length": 3.58,
+  "train_samples": 2000,
+  "valid_samples": 400,
+  "test_samples": 200,
+  "model": "t5-base",
+  "dataset": "SQuAD",
+  "epochs": 1,
+  "learning_rate": 0.0003,
+  "train_batch_size": 4,
+  "gradient_accumulation_steps": 4
+}

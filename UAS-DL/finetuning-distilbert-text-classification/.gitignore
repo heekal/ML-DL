@@ -1,0 +1,16 @@
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+
+checkpoints/
+models/
+wandb/
+runs/
+
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+.DS_Store
