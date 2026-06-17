@@ -1,0 +1,22 @@
+artifact_path: file:///content/mlflow_song_year_artifacts/models/m-167211879cd547c98c825b9712a8b27b/artifacts
+flavors:
+  python_function:
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.tensorflow
+    python_version: 3.12.13
+  tensorflow:
+    code: null
+    data: data
+    keras_version: 2.20.0
+    model_type: keras
+    save_format: tf
+mlflow_version: 3.14.0
+model_id: m-167211879cd547c98c825b9712a8b27b
+model_size_bytes: 269477
+model_uuid: m-167211879cd547c98c825b9712a8b27b
+prompts: null
+run_id: 8f8e1cf3d49947ee9236bbf284b6a3e6
+utc_time_created: '2026-06-17 12:01:45.228293'

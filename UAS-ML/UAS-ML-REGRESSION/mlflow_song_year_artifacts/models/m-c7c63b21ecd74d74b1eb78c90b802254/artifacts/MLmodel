@@ -1,0 +1,23 @@
+artifact_path: file:///content/mlflow_song_year_artifacts/models/m-c7c63b21ecd74d74b1eb78c90b802254/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.12.13
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.6.1
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-c7c63b21ecd74d74b1eb78c90b802254
+model_size_bytes: 2464877
+model_uuid: m-c7c63b21ecd74d74b1eb78c90b802254
+prompts: null
+run_id: 24a4d067aa034700bd0da39d374917e5
+utc_time_created: '2026-06-17 12:00:03.245496'
