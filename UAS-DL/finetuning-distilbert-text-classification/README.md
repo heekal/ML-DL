@@ -5,7 +5,7 @@
 Name: Haikal Ali  
 Class: TK-46-GAB  
 NIM: 1103223071  
-Group: `[fill your group name]`
+Group: Kelompok 12
 
 ## Project Overview
 
